@@ -1,0 +1,12 @@
+[28-Nov-2013 16:39:57] PHP Fatal error:  Call to undefined method Mail_Queue_Error::getRecipient() in /usr/local/lib/php/Mail/Queue.php on line 370
+[28-Nov-2013 18:59:09] PHP Fatal error:  Call to undefined method Mail_Queue_Error::getRecipient() in /usr/local/lib/php/Mail/Queue.php on line 370
+[29-Nov-2013 07:18:31] PHP Fatal error:  Call to undefined method Mail_Queue_Error::getRecipient() in /usr/local/lib/php/Mail/Queue.php on line 370
+[29-Nov-2013 08:14:59] PHP Fatal error:  Call to undefined method Mail_Queue_Error::getRecipient() in /usr/local/lib/php/Mail/Queue.php on line 370
+[01-Dec-2013 02:30:49] PHP Fatal error:  Call to undefined method Mail_Queue_Error::getRecipient() in /usr/local/lib/php/Mail/Queue.php on line 370
+[03-Dec-2013 14:00:31] PHP Fatal error:  Call to undefined method Mail_Queue_Error::getRecipient() in /usr/local/lib/php/Mail/Queue.php on line 370
+[03-Dec-2013 17:21:34] PHP Fatal error:  Call to undefined method Mail_Queue_Error::getRecipient() in /usr/local/lib/php/Mail/Queue.php on line 370
+[07-Dec-2013 09:06:24] PHP Fatal error:  Call to undefined method Mail_Queue_Error::getRecipient() in /usr/local/lib/php/Mail/Queue.php on line 370
+[08-Dec-2013 17:12:55] PHP Fatal error:  Call to undefined method Mail_Queue_Error::getRecipient() in /usr/local/lib/php/Mail/Queue.php on line 370
+[10-Dec-2013 02:55:37] PHP Fatal error:  Call to undefined method Mail_Queue_Error::getRecipient() in /usr/local/lib/php/Mail/Queue.php on line 370
+[10-Dec-2013 15:46:16] PHP Fatal error:  Call to undefined method Mail_Queue_Error::getRecipient() in /usr/local/lib/php/Mail/Queue.php on line 370
+[10-Dec-2013 21:34:31] PHP Fatal error:  Call to undefined method Mail_Queue_Error::getRecipient() in /usr/local/lib/php/Mail/Queue.php on line 370

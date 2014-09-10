@@ -1,0 +1,13 @@
+/* #Tables Styles
+================================================== */
+
+table tr td {
+	background-color: #e6e7e8;
+	border-right: 28px solid #ffffff;
+	border-bottom: 12px solid #ffffff;
+	line-height: 60px;
+	height: 60px;
+	text-shadow: 1px 0px 0px #ffffff;
+    filter: dropshadow(color=#ffffff, offx=1, offy=0);
+    vertical-align: top;
+}

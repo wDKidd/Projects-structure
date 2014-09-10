@@ -1,0 +1,118 @@
+img { behavior: url(../scripts/captcha/captcha/iepngfix.htc); }
+
+
+div#ajax-fc-content input, 
+div#ajax-fc-content select {
+    background: scroll left top transparent;
+	border: 1px solid #ADB8C1;
+    color: #ADB8C1;
+    display: block;
+    font-family: Arial;
+    height: 32px;
+    margin: 3px 0 1px;
+    padding: 7px 10px;
+	width: 316px;
+}
+
+div#ajax-fc-content input#submit {
+    border: 0 none;
+    cursor: pointer;
+    display: block;
+    height: 32px;
+    margin-top: 25px;
+    width: 117px;
+}
+
+
+/* FANCY CAPTCHA STARTS */
+.ajax-fc-container { 
+	/*width: 316px;*/
+	width:329px;
+	height:85px;
+	background: none;  
+	margin:0px; 
+	position:relative;
+}
+
+/* rounded corners */
+.ajax-fc-rtop, .ajax-fc-rbottom{ display:block; background: none; }
+.ajax-fc-rtop *, .ajax-fc-rbottom *{ display: block; height: 1px; overflow: hidden; background: none; }
+
+/* describes left and right boxes */
+div#ajax-fc-content { position: absolute; margin-top: -3px; margin-left: 0px; width: 298px; height: 105px; background: transparent; }
+div#ajax-fc-content div#ajax-fc-left { width: 220px; height: 100px; float: left; }
+
+div#ajax-fc-content div#ajax-fc-right { width: 98px; height: 100px; /* float: right; */
+position: absolute;
+/* top:95px; */
+left: 244px;
+ }
+
+/* block left: task and pictures */
+p#ajax-fc-task { 
+	line-height: 16px; 
+	margin: 0; 
+	/*padding: 0 0 0 11px;*/ 
+	padding: 0px;
+	font-size: 13px;
+	color: #5a5a5a; 
+	text-align:left;
+}
+p#ajax-fc-task span { color: #00334e; font-weight: normal; text-decoration: underline; }
+
+ul#ajax-fc-task { width: 210px; height: 18px; list-style-type: none; margin: 8px 0 0 0; padding: 0 0 0 2px; }
+
+/* block right: cycle and backlink */
+ul#ajax-fc-task li { float: left; /*margin-right: 1px;*/ margin-right:0px; margin-top: 6px;}
+/*p#ajax-fc-circle { position: absolute; margin: 5px 0 0 5px; width: 79px; height: 79px; background: url(../scripts/captcha/imgs/circle.png); background-repeat: no-repeat; }
+*/
+p#ajax-fc-circle {
+	position: absolute;
+	margin: 16px 0 0 0;
+	width: 60px;
+	height: 60px;
+	background: url(../scripts/captcha/imgs/captcha_dropbox.png);
+	background-color: #bcbcbc;
+	background-repeat: no-repeat;
+}
+
+img#ajax-fc-backlink { position: absolute; margin-top: 1px; margin-left: 6px; border: 0px; z-index: 101; display:none;}
+
+/* left and right png borders */
+div#ajax-fc-corner-spacer { height: 0; }
+img.ajax-fc-border { position: absolute; margin-top: -3px; }
+img.ajax-fc-border#ajax-fc-left { margin-left: 2px; }
+img.ajax-fc-border#ajax-fc-right { margin-left: 307px; }
+
+/* items */
+.ajax-fc-highlighted { cursor: pointer; z-index: 102}
+
+/* rounded corners */
+.ajax-fc-r1{ margin: 0 5px } .ajax-fc-r2{ margin: 0 3px } .ajax-fc-r3{ margin: 0 2px } .ajax-fc-r4{ margin: 0 1px; height: 2px }
+
+/* FANCY CAPTCHA ENDS */
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+	p#ajax-fc-circle {
+	position: absolute;
+	margin: 16px 0 0 -7px;
+	width: 73px;
+	height: 77px;
+	background: #bcbcbc url(../scripts/captcha/imgs/captcha_dropbox_2x.png);
+	background-repeat: no-repeat;
+	background-size:73px 77px;
+	}
+}
+
+.ajax-fc{
+	background-color: #fff;
+	margin-right:12px !important;
+	width:30px;
+	height:30px;
+}
+
+.ajax-fc-highlighted{
+	background-color: #3b9dbd;
+}

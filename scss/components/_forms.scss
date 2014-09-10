@@ -1,0 +1,111 @@
+
+
+
+/* #Forms
+================================================== */
+
+form {
+	margin-bottom: 20px; 
+}
+fieldset {
+	margin-bottom: 20px; 
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+	border: none;
+	padding: 0 38px;
+	/* line-height: 60px; */
+	height: 60px;
+	outline: none;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	font-size: 16px;
+	color: #afafaf;
+	margin: 0 0 8px;
+	width: 428px;
+	max-width: 100%;
+	display: block;
+	background: #ffffff; 
+	font-family: 'PT Sans', sans-serif;
+	border: 1px solid #e6e7e8;
+	-webkit-appearance: none;/* remove iPad default styling */
+	-moz-appearance: none; /* mobile firefox too! */
+}
+
+select {
+	padding: 0; 
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, textarea:focus {
+	border: 1px solid #aaa;
+	color: #444;
+}
+
+label, legend {
+	display: block;
+	font-weight: bold;
+	font-size: 16px;  
+}
+
+select {
+	width: 220px; 
+}
+
+input[type="checkbox"] {
+	display: inline; 
+}
+
+label span, legend span {
+	font-weight: normal;
+	font-size: 16px;
+	color: #444; 
+}
+
+.confirm_send {
+	width: 506px;
+	height: 62px;
+}
+
+.mini_fields {
+	height: 60px;
+	margin-bottom: 8px;
+}
+input[type="text"].smaller {
+	width: 171px;
+	float: left;
+}
+textarea {
+    height: 132px;
+    overflow: auto;
+    resize: none;
+    margin-bottom: 22px;
+    padding: 14px 38px;
+    width: 428px;
+}
+
+
+/* error-message */
+
+.error-container{
+	position: relative;
+	height: auto;
+}	
+.small_error {
+	width: 248px;
+	height: 60px;
+}
+	
+label.error {
+	color: #990033;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 10px;
+	padding:27px 10px 15px 0px;
+	position: absolute;
+	top:0;
+	right: 0;
+}
+.error-container.gender label.error { padding:0; padding-top:5px; }

@@ -1,0 +1,60 @@
+/* #Buttons
+================================================== */
+
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+	display: inline-block;
+	background-color: #3b9dbd;
+	color: #ffffff;
+	line-height: 62px;
+	padding: 0 34px;
+	text-decoration: none;
+	margin-bottom: 20px; 
+	height: 62px;
+	border: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	border-radius: 0;
+}
+
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+	background-color: #5b5b5b;
+}
+
+.button:active,
+button:active,
+input[type="submit"]:active,
+input[type="reset"]:active,
+input[type="button"]:active {
+	display: inline-block;
+	background-color: #3b9dbd;
+	color: #ffffff;
+	line-height: 62px;
+	padding: 0 34px;
+	text-decoration: none;
+	margin-bottom: 20px; 
+}
+
+.button.full-width,
+button.full-width,
+input[type="submit"].full-width,
+input[type="reset"].full-width,
+input[type="button"].full-width {
+	width: 100%;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	text-align: center; }
+
+/* Fix for odd Mozilla border & padding issues */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
